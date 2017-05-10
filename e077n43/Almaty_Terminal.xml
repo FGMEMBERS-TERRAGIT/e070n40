@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<PropertyList>
+
+<path>Almaty_Terminal.ac</path>
+
+<animation> 
+  <type>material</type> 
+  <object-name>Signs</object-name>
+<condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+<emission>	
+  <red>0.969</red>	
+  <green>0.227</green>	
+  <blue>0.243</blue>
+ </emission>
+</animation>
+
+
+<animation> 
+  <type>material</type> 
+  <object-name>Lights_Roof_Edge</object-name>
+<condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+<emission>	
+  <red>0.227</red>	
+  <green>0.545</green>	
+  <blue>0.906</blue>
+ </emission>
+</animation>
+ 
+
+<animation> 
+  <type>material</type> 
+   <object-name>Window_outside_1</object-name>
+  <object-name>Window_outside_2</object-name>
+  <object-name>Window_outside_3</object-name>
+  <object-name>Window_outside_4</object-name>
+  <object-name>Window_outside_5</object-name>
+  <object-name>Window_outside_6</object-name>
+  <object-name>Window_outside_7</object-name>
+<condition>		
+  <greater-than>		
+   <property>/sim/time/sun-angle-rad</property>
+   <value>1.57</value>
+  </greater-than>
+ </condition>
+<emission>	
+  <red>0.706</red>	
+  <green>0.882</green>	
+  <blue>0.894</blue>
+ </emission>
+</animation>
+
+</PropertyList>
